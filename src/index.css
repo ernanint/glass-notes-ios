@@ -139,18 +139,18 @@ All colors MUST be HSL.
 @layer components {
   /* Glass Morphism Effects */
   .glass-card {
-    @apply bg-glass-card/70 backdrop-blur-xl border border-glass-border/30 rounded-2xl;
+    @apply bg-glass-card/70 backdrop-blur-xl border border-glass-card-border/30 rounded-2xl;
     box-shadow: var(--shadow-glass);
   }
 
   .glass-button {
-    @apply bg-glass-card/60 backdrop-blur-lg border border-glass-border/40 rounded-xl;
+    @apply bg-glass-card/60 backdrop-blur-lg border border-glass-card-border/40 rounded-xl;
     box-shadow: var(--shadow-card);
     transition: var(--transition-smooth);
   }
 
   .glass-button:hover {
-    @apply bg-glass-card/80 border-glass-border/60 scale-105;
+    @apply bg-glass-card/80 border-glass-card-border/60 scale-105;
     box-shadow: var(--shadow-button);
   }
 
